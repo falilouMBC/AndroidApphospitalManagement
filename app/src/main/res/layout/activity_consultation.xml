@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consultation">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:src="@drawable/consult"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="@dimen/right"
+            android:layout_width="150dp"
+            android:layout_height="90dp"/>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_below="@+id/imgLogo"
+            android:layout_marginTop="@dimen/top"
+            android:text="Gestion consultation"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/txtLogin"
+            android:layout_below="@+id/tvTitle"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/right"
+            android:layout_marginLeft="@dimen/left"
+            android:hint="identifiant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/txtDate"
+            android:layout_below="@+id/txtLogin"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/right"
+            android:layout_marginLeft="@dimen/left"
+            android:hint="Date de consultation"
+            android:inputType="datetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/txtDiagnostic"
+            android:layout_below="@+id/txtDate"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/right"
+            android:layout_marginLeft="@dimen/left"
+            android:hint="Diagnostic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/txtMedoc"
+            android:layout_below="@+id/txtDiagnostic"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/right"
+            android:layout_marginLeft="@dimen/left"
+            android:hint="Medicaments et posologie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/txtDoctor"
+            android:layout_below="@+id/txtMedoc"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/right"
+            android:layout_marginLeft="@dimen/left"
+            android:hint="Nom du medecin soignant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/txtService"
+            android:layout_below="@+id/txtDoctor"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/right"
+            android:layout_marginLeft="@dimen/left"
+            android:hint="Service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_below="@+id/txtService"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginRight="@dimen/right"
+            android:layout_marginTop="@dimen/top"
+            android:backgroundTint="@color/green"
+            android:text="Enregistrer"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</ScrollView>

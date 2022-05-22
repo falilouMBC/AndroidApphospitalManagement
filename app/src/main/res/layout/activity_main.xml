@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    style="@style/AppTheme.MaterialTheme"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/tawfekh"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <EditText
+
+        android:inputType="text"
+        android:layout_marginTop="90dp"
+        android:hint="@string/login"
+        android:id="@+id/txtLogin"
+        android:layout_below="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="@dimen/top"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:id="@+id/txtPassword"
+        android:layout_height="wrap_content"/>
+
+  <Button
+      android:id="@+id/btnConnect"
+      android:text="@string/connect"
+      android:backgroundTint="@color/green"
+      android:layout_below="@+id/txtPassword"
+      android:layout_marginTop="@dimen/top"
+      android:layout_marginRight="@dimen/right"
+      android:layout_marginLeft="@dimen/left"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

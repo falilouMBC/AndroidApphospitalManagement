@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserManagement">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/idLogo"
+            android:layout_marginTop="@dimen/top"
+            android:src="@drawable/tawfekh"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+        <TextView
+            android:layout_marginTop="@dimen/top"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/green"
+            android:text="Bienvenue !"
+            android:layout_below="@+id/idLogo"
+            android:gravity="center"
+            android:id="@+id/txtList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/right"
+            android:layout_marginLeft="@dimen/left"
+            android:hint="Entrer l'identifiant du patient"
+            android:layout_below="@+id/txtList"
+            android:id="@+id/loginSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginRight="@dimen/right"
+            android:backgroundTint="@color/green"
+            android:id="@+id/btnSearch"
+            android:layout_below="@+id/loginSearch"
+            android:text="Rechercher"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txtPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSearch"
+            android:layout_marginTop="@dimen/top"
+            android:text=""
+            android:textColor="@color/green"
+            android:layout_marginLeft="@dimen/left"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAjout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtConsult"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/right"
+            android:backgroundTint="@color/green"
+            android:text="Ajouter patient"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_below="@+id/txtPatient"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginRight="@dimen/right"
+            android:backgroundTint="@color/green"
+            android:text="Programmer rendez vous"
+            android:textStyle="bold"
+            android:id="@+id/btnRv"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnCons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtAppointment"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/right"
+            android:backgroundTint="@color/green"
+            android:text="Renseigner consultation"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnRv"
+            android:layout_marginTop="@dimen/top"
+            android:text=""
+            android:textColor="@color/green"
+            android:layout_marginLeft="@dimen/left"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtConsult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnCons"
+            android:layout_marginTop="@dimen/top"
+            android:text=""
+            android:textColor="@color/green"
+            android:textSize="20dp"
+            android:layout_marginLeft="@dimen/left"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_below="@+id/btnAjout"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginRight="@dimen/right"
+            android:backgroundTint="@color/green"
+            android:text="Deconnecter"
+            android:layout_marginTop="@dimen/top"
+            android:id="@+id/btnDisconnect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</ScrollView>

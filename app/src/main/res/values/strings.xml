@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Tawfekh</string>
+    <string name="hospital">Hopital</string>
+    <string name="sickPerson">Malade</string>
+    <string name="appointment">Rendez-vous</string>
+    <string name="help">Aide</string>
+    <string name="consultAppointment">Consulter rendez-vous</string>
+    <string name="consult">Consulter</string>
+    <string name="consultation">Consultation</string>
+    <string name="diagnosis">Diagnostic</string>
+    <string name="result">Resultat</string>
+    <string name="folder">Dossier medical</string>
+    <string name="first_name">Prenom</string>
+    <string name="last_name">Nom</string>
+    <string name="sex">Sexe</string>
+    <string name="man">Homme</string>
+    <string name="woman">Femme</string>
+    <string name="age">Age</string>
+    <string name="day">Jour</string>
+    <string name="date">Date</string>
+    <string name="doctor">Docteur</string>
+    <string name="sickness">Maladie</string>
+    <string name="drug">Medicament</string>
+    <string name="save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="error_field">Veuillez remplir les champs</string>
+    <string name="error_connexion">Veuillez verifier la connection</string>
+    <string name="error_parameters">Parametres incorrectes</string>
+    <string name="error_inscription">Inscription echouée</string>
+    <string name="success_inscription">Inscription reussie</string>
+    <string name="home">Accueil</string>
+    <string name="connection">Connection</string>
+    <string name="login">Identifiant</string>
+    <string name="password">Mot de passe</string>
+    <string name="connect">Se connecter</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="email">tawfekh@tawfekh.sn</string>
+    <string name="tewfekh">Tawfekh est une application de gestion de consultation et de rendez-vous d\'un patient. L\'application est composée d\'une page pour consulter son
+        dossier medical c\'est a dire les diagnostics de la consultation, les préescription du medecin, le jour de la consultation et la date du rendez-vous; on a aussi une page specifique
+        pour consulter ses rendez-vous de toutes les periodes. La page consultion vous affichera le details et les diagnostic du medecin et enfin une page
+        qui affichera tous les hopitaux sur une carte google maps
+    </string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_administration">Administration</string>
+
+
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InscriptionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:src="@drawable/tawfekh"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="@dimen/right"
+            android:layout_width="150dp"
+            android:layout_height="90dp"/>
+
+        <EditText
+            android:id="@+id/txtFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgLogo"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginRight="@dimen/right"
+            android:hint="@string/first_name" />
+
+        <EditText
+            android:id="@+id/txtLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtFirstName"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/right"
+            android:hint="@string/last_name" />
+
+
+        <TextView
+            android:layout_below="@+id/txtLastName"
+            android:textStyle="bold"
+            android:text="@string/sex"
+            android:layout_marginLeft="@dimen/left"
+            android:textSize="15dp"
+            android:id="@+id/sex"
+            android:layout_marginTop="@dimen/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rdGender"
+            android:layout_below="@+id/sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rdMan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginLeft="100dp"
+                android:text="@string/man"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_below="@id/rdMan"
+                android:layout_marginLeft="100dp"
+                android:text="@string/woman"
+                android:textStyle="bold"
+                android:id="@+id/rdwoman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+
+
+        <EditText
+            android:id="@+id/txtAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rdGender"
+            android:layout_marginLeft="@dimen/left"
+
+            android:layout_marginRight="@dimen/right"
+            android:hint="@string/age"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtLoginIns"
+            android:layout_below="@+id/txtAge"
+            android:layout_marginRight="@dimen/right"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginTop="@dimen/top"
+            android:hint="@string/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/txtPwdIns"
+            android:layout_below="@+id/txtLoginIns"
+            android:layout_marginRight="@dimen/right"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginTop="@dimen/top"
+            android:hint="@string/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPwdIns"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginTop="@dimen/top"
+            android:id="@+id/btnSignUp"
+            android:layout_marginRight="@dimen/right"
+            android:backgroundTint="@color/green"
+            android:text="@string/sign_up" />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

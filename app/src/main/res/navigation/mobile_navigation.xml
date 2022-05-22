@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tawfekh.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.tawfekh.HelpFragment"
+        android:label="@string/help"
+        tools:layout="@layout/fragment_help"/>
+
+    <fragment
+        android:id="@+id/nav_folder"
+        android:name="com.example.tawfekh.FolderFragment"
+        android:label="@string/folder"
+        tools:layout="@layout/fragment_folder"/>
+
+    <fragment
+        android:id="@+id/nav_consult"
+        android:name="com.example.tawfekh.ConsultationFragment"
+        android:label="@string/consultation"
+        tools:layout="@layout/fragment_consultation"/>
+
+    <fragment
+        android:id="@+id/nav_appointment"
+        android:name="com.example.tawfekh.AppointmentFragment"
+        android:label="@string/appointment"
+        tools:layout="@layout/fragment_appointment"/>
+
+    <fragment
+        android:id="@+id/nav_hospital"
+        android:name="com.example.tawfekh.HospitalFragment"
+        android:label="@string/hospital"
+        tools:layout="@layout/fragment_description"/>
+
+    <fragment
+        android:id="@+id/nav_description"
+        android:name="com.example.tawfekh.DescriptionFragment"
+        android:label="@string/hospital"
+        tools:layout="@layout/fragment_description"/>
+
+</navigation>

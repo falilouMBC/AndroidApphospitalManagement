@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RendezVous">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:src="@drawable/time"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="@dimen/right"
+            android:layout_width="150dp"
+            android:layout_height="90dp"/>
+        <TextView
+            android:layout_marginTop="@dimen/top"
+            android:layout_below="@+id/imgLogo"
+            android:id="@+id/tvTitleR"
+            android:text="Choisissez une date de rendez vous "
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:id="@+id/etLogin"
+            android:layout_below="@+id/tvTitleR"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginRight="@dimen/right"
+            android:hint="Identifiant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+
+            android:id="@+id/etDate"
+            android:layout_below="@+id/etLogin"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginRight="@dimen/right"
+            android:inputType="date"
+            android:hint="Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etService"
+            android:layout_below="@+id/etDate"
+            android:layout_marginRight="@dimen/right"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginTop="@dimen/top"
+            android:hint="Service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnSoumettre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etService"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginRight="@dimen/right"
+            android:backgroundTint="@color/green"
+            android:text="Programmer" />
+
+    </RelativeLayout>
+</ScrollView>

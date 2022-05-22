@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InscriptionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:src="@drawable/consult"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="@dimen/right"
+            android:layout_width="150dp"
+            android:layout_height="90dp"/>
+
+        <TextView
+            android:layout_below="@+id/imgLogo"
+            android:layout_marginTop="@dimen/top"
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/green"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginRight="@dimen/right"
+            android:text="Nous esperons vous revoir au prochain rendez-vous !"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/top"
+            android:layout_marginLeft="@dimen/left"
+            android:text=""
+            android:layout_below="@id/tvTitle"
+            android:id="@+id/tvConsult"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

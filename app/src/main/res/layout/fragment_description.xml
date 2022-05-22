@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="120dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerHorizontal="true"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+           />
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_marginRight="@dimen/right"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_below="@+id/imgLogo"
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tewfekh" />
+
+        <TextView
+            android:layout_marginTop="@dimen/top"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvDes"
+            android:id="@+id/tvDev"
+            android:text="Nom des developpeurs : Falilou CISSE et Fatou SARR"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/top"
+            android:textStyle="bold"
+            android:layout_below="@+id/tvDev"
+            android:text="Date derniere mise à jour : 16/05/2022"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Tawfekh</string>
+    <string name="hospital">Hospitaux</string>
+    <string name="sickPerson">Sick person</string>
+    <string name="appointment">Appointment</string>
+    <string name="help">Help</string>
+    <string name="consultAppointment">Consult appointment</string>
+    <string name="consult">Consult</string>
+    <string name="consultation">Consultation</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="result">Result</string>
+    <string name="day">Day</string>
+    <string name="date">Date</string>
+    <string name="doctor">Doctor</string>
+    <string name="sickness">Sickness</string>
+    <string name="drug">Drug</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_field">Required field</string>
+    <string name="error_connexion">Connection failed</string>
+    <string name="error_parameters">Incorrect parameters</string>
+    <string name="error_inscription">Inscription failed</string>
+    <string name="success_inscription">Inscription succeed</string>
+    <string name="home">Home</string>
+    <string name="connection">Connection</string>
+    <string name="login">login</string>
+    <string name="password">Password</string>
+    <string name="connect">Connect</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">tawfekh@tawfekh.sn</string>
+    <string name="tewfekh">Tawfekh est une application de gestion de consultation et de rendez-vous d\'un patient. L\'application est composée d\'une page pour consulter son
+        dossier medical c\'est a dire les diagnostics de la consultation, les préescription du medecin, le jour de la consultation et la date du rendez-vous; on a aussi une page specifique
+        pour consulter ses rendez-vous de toutes les periodes. La page consultion vous affichera le details et les diagnostic du medecin et enfin une page
+        qui affichera tous les hopitaux sur une carte google maps
+    </string>
+
+</resources>

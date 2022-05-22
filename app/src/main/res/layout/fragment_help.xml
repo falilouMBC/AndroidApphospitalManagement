@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:src="@drawable/ndiambe"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="@dimen/right"
+        android:layout_width="150dp"
+        android:layout_height="90dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textSize="20dp"
+        android:layout_marginLeft="@dimen/left"
+        android:layout_marginRight="@dimen/right"
+        android:id="@+id/tvInfo"
+        android:layout_marginTop="@dimen/top"
+        android:gravity="center"
+        android:layout_below="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <Button
+        android:layout_below="@+id/tvInfo"
+        android:layout_marginTop="@dimen/top"
+        android:layout_marginRight="@dimen/right"
+        android:layout_marginLeft="@dimen/left"
+        android:backgroundTint="@color/green"
+        android:text="Appelez moi"
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
